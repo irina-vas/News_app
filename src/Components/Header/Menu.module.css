@@ -1,0 +1,13 @@
+.menu {
+  display: flex;
+  width: 300px;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.menuIcon {
+  width: 16px;
+  cursor: pointer;
+  left: 86.6vw;
+}
+

@@ -1,0 +1,59 @@
+.menuList {
+  display: flex;
+  position: relative;
+  font-size: 14px;
+}
+
+.MenuItem {
+  text-decoration: none;
+  color: #000;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.MenuItem:hover ~ .container {
+  display: flex;
+}
+
+.container:hover {
+  display: flex;
+}
+
+.container {
+  display: none;
+  position: absolute;
+  top: 19px;
+  right: 50px;
+  height: 150px;
+  width: 220px;
+  box-shadow: 0px 0px 4px #BDBDBD;
+  border-radius: 5px;
+  background-color: #fff;
+  z-index: 100;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column > span {
+  padding-top: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.flashIcon {
+  width: 16px;
+  position: absolute;
+  left: 72px;
+  top: 4px;
+}
+
+.categoryItem {
+  position: relative;
+}
+

@@ -1,0 +1,16 @@
+.wrapper {
+  margin: 80px 0 20px;
+}
+
+.description {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  width: 85vw;
+  margin: 20px auto 0;
+  font-weight: 400;
+}
+
+.description > span {
+  font-weight: 700;
+  font-size: 16px;
+}
